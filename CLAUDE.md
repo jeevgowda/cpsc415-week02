@@ -20,6 +20,9 @@ One paragraph. Link to the current `spec.md`.
 - Branch and PR naming.
 
 ## Working rules
+
+For an introductory lab, follow its explicitly assigned stages; the full chain below applies to major projects. Week 1 uses its own minimal repository.
+
 - Write or update `intent/` and `spec.md` before code. Get `plan.md` approved before implementing.
 - One feature per branch and pull request. Never push to `main` directly.
 - Never commit `.env` or `.claude/settings.local.json`.

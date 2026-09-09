@@ -14,4 +14,4 @@ Fragile points, assumptions, blast radius.
 
 ## What did I learn?
 Concretely. Include places where the agent was confidently wrong and you caught it.
-If this component is in your never-before-used language, what did you learn about reading unfamiliar code?
+What did you learn about reading code or using concepts that were unfamiliar to you?

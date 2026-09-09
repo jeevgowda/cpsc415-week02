@@ -11,7 +11,7 @@ One entry per component. Two design decisions are required for each.
 
 ### <component name>
 - **What it does:**
-- **Language:** <language>. **Why:** alternatives considered and the trade-off. If this is your never-before-used language, say so.
+- **Language:** <language>. **Why:** alternatives considered and the trade-off. Java and Python are both permitted; unfamiliar-language practice is a separate guided exercise.
 - **Model:** <vendor/model-slug>. **Why:** what you compared it against (at least one cheap model versus one frontier model on a real task) and what differed.
 - **Interfaces:** inputs, outputs, files, endpoints.
 - **Dependencies:**
