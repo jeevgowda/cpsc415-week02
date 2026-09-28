@@ -1,3 +1,21 @@
+# Week 2 - Chat Client
+
+## Overview
+A command-line chat client using standard library Python (`urllib.request`, `json`, `sys`, `os`).
+
+## How to Run
+export OPENROUTER_API_KEY="sk-or-v1-..."
+export CHAT_BASE_URL="https://openrouter.ai/api/v1"
+export CHAT_MODEL="nvidia/nemotron-3-ultra-550b-a55b:free"
+
+python3 chat.py "In one sentence, what is a context window?"
+
+## Intent Corrections
+1. Required CHAT_BASE_URL and CHAT_MODEL to be read dynamically from environment variables without hardcoded fallbacks.
+2. Required output to print the answer followed by a final line displaying model name and token counts.
+
+## Code Explanation
+In chat.py, urllib.request.Request creates the HTTP POST payload with standard headers (Authorization: Bearer key, Content-Type: application/json) and parses output using standard json.loads.
 # Artifact-chain template
 
 Starting point for major project submissions in CPSC 415 (AI Integration, Trinity College). Click **Use this template** on GitHub to create your own repository from it. Do not fork.
